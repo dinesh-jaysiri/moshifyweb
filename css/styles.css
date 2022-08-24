@@ -1,0 +1,49 @@
+/* @font-face {
+  font-family: "Avenir";
+  src: url("font/AvenirLTStd-Roman.woff2") format("woff2"),
+    url("font/AvenirLTStd-Roman.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} */
+
+:root {
+  --color-primary: #dd1f33;
+  --color-background: #f3f4f5;
+  --color-body-darker: #444;
+  --color-border: #d4d4d4;
+  --border-redius: 40px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  color: var(--color-body-darker);
+  font-size: 2.4rem;
+  line-height: 1.5;
+  background: gold;
+}
+
+/* link */
+
+a {
+  text-decoration: none;
+}
+
+/* Lists */
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+/* icon */
+
