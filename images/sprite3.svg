@@ -1,0 +1,10 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="chevron">
+    <defs></defs>
+    <title></title>
+    <g id="chevron-right">
+      <line x1="21" x2="12" y1="16" y2="25"></line>
+      <line x1="12" x2="21" y1="7" y2="16"></line>
+    </g>
+  </symbol>
+</svg>
